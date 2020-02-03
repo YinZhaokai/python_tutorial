@@ -16,7 +16,7 @@
 
 ## python上的第一个任务-获取当前时间
 
-python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法，[代码文件](https://github.com/YinZhaokai/python_tutorial/blob/master/task1.py)。
+python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法，[代码文件 task1.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task1.py)。
 <!-- 
 ```python
 #在此处引用“包”
@@ -41,3 +41,6 @@ def main():
 if __name__=='__main__':
     main()
 ``` -->
+样例代码展示了如何用“代码”而非“脚本”的形式写python，这种写法在写较大型的工程时更加合适。
+
+python代码通常包含包引用、函数定义、主函数等部分。在
