@@ -13,3 +13,7 @@
 接下来就是python及编辑器的安装，强烈推荐从anaconda下载python，里面内置了很多常用的工具包，使用的时候非常方便，[下载网址](https://www.anaconda.com/distribution/#download-section)。
 编辑器推荐使用vscode，跟我的环境一致，比较容易解决你们的问题，这里推荐2个教程介绍如何安装和配置环境：[教程一](https://zhuanlan.zhihu.com/p/31417084)、[教程二](https://www.cnblogs.com/schut/p/10346755.html)。
 安装好python和vscode之后，请按照[python入门一](https://www.w3school.com.cn/python/index.asp)、[python入门二](https://www.w3cschool.cn/python3/python3-tutorial.html)或[python入门三](https://www.runoob.com/python/python-tutorial.html)来学习python的基本语法。
+
+## python上的第一个任务-获取当前时间
+
+python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法
