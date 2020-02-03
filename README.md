@@ -4,15 +4,17 @@
 
 学习深度学习免不了要学习Python，在学习Python的过程中我有如下几个体会，先和大家分享。
 
-* Python在线学习资源丰富，各种教程和问题都可以通过搜索引擎获得，特别是各种博客(如[csdn](https://www.csdn.net/)、[cnblogs](https://www.cnblogs.com/))上面的经验，[github](https://github.com/)上面现成的代码，以及[stackoverflow](https://stackoverflow.com/)上面的问答，非常方便，一定要加以利用；
+* Python在线学习资源丰富，各种教程和问题都可以通过搜索引擎获得，特别是各种博客(如[csdn](https://www.csdn.net/)、[cnblogs](https://www.cnblogs.com/))上面的经验，[github](https://github.com/)上面现成的代码，以及[stackoverflow](https://stackoverflow.com/)上面的问答，非常方便，一定要加以利用。**但python由于历史原因发展为了2.7和3.x两大分支，互不兼容，因此在查询问题的时候一定要注意python版本是否一致**；
 * Python现成的“轮子”很多，有很多成熟的工具让我们来使用，很多情况下都不需要写复杂的逻辑；
 * 要熟悉命令行的操作方式，在windows上就是cmd或powershell，在linux上就是shell，在线的各种python教程中都会有各种在命令行中输入命令的操作，大家一定要习惯。
+
+<img src="https://wxt.sinaimg.cn/thumb300/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg?tags=%5B%5D">
 
 ## 环境配置
 
 接下来就是python及编辑器的安装，强烈推荐从anaconda下载python，里面内置了很多常用的工具包，使用的时候非常方便，[下载网址](https://www.anaconda.com/distribution/#download-section)。
 编辑器推荐使用vscode，跟我的环境一致，比较容易解决你们的问题，这里推荐2个教程介绍如何安装和配置环境：[教程一](https://zhuanlan.zhihu.com/p/31417084)、[教程二](https://www.cnblogs.com/schut/p/10346755.html)。
-安装好python和vscode之后，请按照[python入门一](https://www.w3school.com.cn/python/index.asp)、[python入门二](https://www.w3cschool.cn/python3/python3-tutorial.html)或[python入门三](https://www.runoob.com/python/python-tutorial.html)来学习python的基本语法。
+安装好python和vscode之后，请按照[python入门一](https://www.w3school.com.cn/python/index.asp)、[python入门二](https://www.w3cschool.cn/python3/python3-tutorial.html)或[python入门三](https://www.runoob.com/python/python-tutorial.html)来学习python的基本语法。**三个入门教程不尽相同，建议都看一遍！！！** 另外就是如何使用vscode调试python，这里推荐一个[教程](https://zhuanlan.zhihu.com/p/41189402)，调试时的快捷键与Visual Studio相同，F5为调试、运行，F10为单步运行，F11为进入子函数内部。需要注意的是在python代码调试完毕没有bug后，建议直接使用`python ***.py`的命令运行，这样效率会明显高于调试状态。
 
 ## python上的第一个任务-获取当前时间
 
