@@ -8,7 +8,7 @@
 * Python现成的“轮子”很多，有很多成熟的工具让我们来使用，很多情况下都不需要写复杂的逻辑；
 * 要熟悉命令行的操作方式，在windows上就是cmd或powershell，在linux上就是shell，在线的各种python教程中都会有各种在命令行中输入命令的操作，大家一定要习惯。
 
-<img src="https://wxt.sinaimg.cn/thumb300/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg?tags=%5B%5D">
+<!-- <img src="https://wxt.sinaimg.cn/thumb300/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg?tags=%5B%5D"> -->
 
 ## 环境配置
 
