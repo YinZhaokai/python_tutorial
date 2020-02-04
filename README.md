@@ -70,6 +70,8 @@ def main():
 
 * 主函数部分建议写在单独定义的主函数当中，因为这样可以在`if __name__=='__main__':`之后的部分单独调用部分函数进行单元测试。每个子函数都通过单元测试后再测试项目整体，会比较容易。
 
+***
+
 ## python上的第二个任务-求矩阵转置
 
 python中有关矩阵运算通常都调用numpy包来实现，这里借助这个任务来了解常用的与科研相关的python工具包。有了这些工具包我们就有了基于python进行数据计算与分析的有力工具，可以轻易利用复杂/高级的算法实现我们的目的，避免将大量时间花在如何用代码实现这些算法上。[代码文件 task2.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task2.py)。
@@ -133,6 +135,8 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 [参考一](https://blog.csdn.net/ruanxingzi123/article/details/82787852)
 [参考二](https://blog.csdn.net/qq_39407518/article/details/80065601)
 
+***
+
 ## python上的第三个任务-水文整编计算
 
-从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此]()），按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
+从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此](https://github.com/YinZhaokai/python_tutorial/blob/master/第三次大作业.docx)），按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
