@@ -7,6 +7,7 @@
 * Python在线学习资源丰富，各种教程和问题都可以通过搜索引擎获得，特别是各种博客(如[csdn](https://www.csdn.net/)、[cnblogs](https://www.cnblogs.com/))上面的经验，[github](https://github.com/)上面现成的代码，以及[stackoverflow](https://stackoverflow.com/)上面的问答，非常方便，一定要加以利用。**但python由于历史原因发展为了2.7和3.x两大分支，互不兼容，因此在查询问题的时候一定要注意python版本是否一致**；
 * Python现成的“轮子”很多，有很多成熟的工具让我们来使用，很多情况下都不需要写复杂的逻辑；
 * 要熟悉命令行的操作方式，在windows上就是cmd或powershell，在linux上就是shell，在线的各种python教程中都会有各种在命令行中输入命令的操作，大家一定要习惯。
+* **自主在线查询问题的能力很重要！！** 查询时要注意python的错误信息，这是出bug时查询解决方案的最直接线索。
 
 ## 环境配置
 
@@ -68,3 +69,70 @@ def main():
 ```
 
 * 主函数部分建议写在单独定义的主函数当中，因为这样可以在`if __name__=='__main__':`之后的部分单独调用部分函数进行单元测试。每个子函数都通过单元测试后再测试项目整体，会比较容易。
+
+## python上的第二个任务-求矩阵转置
+
+python中有关矩阵运算通常都调用numpy包来实现，这里借助这个任务来了解常用的与科研相关的python工具包。有了这些工具包我们就有了基于python进行数据计算与分析的有力工具，可以轻易利用复杂/高级的算法实现我们的目的，避免将大量时间花在如何用代码实现这些算法上。[代码文件 task2.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task2.py)。
+
+***
+
+* **numpy** -- NumPy(Numerical Python) 是 Python 语言的一个扩展程序库，支持大量的维度数组与矩阵运算，此外也针对数组运算提供大量的数学函数库。NumPy 是一个运行速度非常快的数学库，主要用于数组计算，包含：
+
+  * 一个强大的N维数组对象 ndarray；
+  * 广播功能函数；
+  * 整合 C/C++/Fortran 代码的工具；
+  * 线性代数、傅里叶变换、随机数生成等功能。
+
+    [numpy官方教程](https://www.numpy.org.cn/)、[numpy教程一](https://www.runoob.com/numpy/numpy-tutorial.html)、[numpy教程二](https://www.yiibai.com/numpy/)
+
+***
+
+* **pandas** -- Pandas 是 Python 的核心数据分析支持库，提供了快速、灵活、明确的数据结构，旨在简单、直观地处理关系型、标记型数据。Pandas 适用于处理以下类型的数据：
+
+  * 与 SQL 或 Excel 表类似的，含异构列的表格数据;
+  * 有序和无序（非固定频率）的时间序列数据;
+  * 带行列标签的矩阵数据，包括同构或异构型数据;
+  * 任意其它形式的观测、统计数据集, 数据转入 Pandas 数据结构时不必事先标记。
+  
+  Pandas 的主要数据结构是 Series（一维数据）与 DataFrame（二维数据），这两种数据结构足以处理金融、统计、社会科学、工程等领域里的大多数典型用例。Pandas 基于 NumPy 开发，可以与其它第三方科学计算支持库完美集成。[pandas官方教程](https://www.pypandas.cn/docs/getting_started/)、[pandas教程一](https://zhuanlan.zhihu.com/p/25630700)、[pandas教程二](https://www.cnblogs.com/misswangxing/p/7903595.html)
+
+***
+
+* **sklearn** -- Scikit learn 也简称 sklearn, 是机器学习领域当中最知名的 python 模块之一。Sklearn 包含了很多种机器学习的方式:
+
+  * Classification 分类
+  * Regression 回归
+  * Clustering 聚类
+  * Dimensionality reduction 数据降维
+  * Model Selection 模型选择
+  * Preprocessing 数据预处理
+  
+  [sklearn官方教程](https://sklearn.apachecn.org/)、[sklearn教程一](https://zhuanlan.zhihu.com/p/35708083)、[sklearn教程二](https://blog.csdn.net/lilianforever/article/details/53780613)
+
+***
+
+* **matplotlib** -- Matplotlib 是一个 Python 的 2D绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形。诸如：线图、散点图、等高线图、条形图、柱状图、3D 图形、甚至是图形动画等等。[matplotlib官方教程](https://www.matplotlib.org.cn/)、[matplotlib教程一](https://www.runoob.com/w3cnote/matplotlib-tutorial.html)、[matplotlib教程二](https://www.cnblogs.com/nxld/p/7435930.html)
+
+***
+
+上述提到的都是第三方的工具包，除此之外，python还内置了很多更泛用的工具模块（标准库），比如：
+
+* **math** - 该模块提供了对C标准定义的数学函数的访问。
+* **time** - 该模块提供了各种时间相关的函数。
+* **datetime** - datetime 模块提供了可以通过多种方式操作日期和时间的类。在支持日期时间数学运算的同时，实现的关注点更着重于如何能够更有效地解析其属性用于格式化输出和数据操作。
+* **random** - 该模块实现了各种分布的伪随机数生成器。在实数轴上，有计算均匀、正态（高斯）、对数正态、负指数、伽马和贝塔分布的函数。 为了生成角度分布，可以使用 von Mises 分布。
+* **sys** - 该模块提供了一些变量和函数。这些变量可能被解释器使用，也可能由解释器提供。这些函数会影响解释器。
+* **os** - 该模块提供了一些方便使用操作系统相关功能的函数。 如果你是想读写一个文件，请参阅 *open()*，如果你想操作路径，请参阅 *os.path* 模块，如果你想在命令行上读取所有文件中的所有行请参阅 *fileinput* 模块。 有关创建临时文件和目录的方法，请参阅 *tempfile* 模块，对于高级文件目录处理，请参阅 *shutil* 模块。
+* **json** - JSON 编码和解码器。
+* **re** - 这个模块提供了正则表达式匹配操作。
+* **configparser** - 该类的作用是使用配置文件生效，配置文件的格式和windows的INI文件的格式相同。
+* **subprocess** - subprocess 模块允许你生成新的进程（比如调用exe），连接它们的输入、输出、错误管道，并且获取它们的返回码。
+* **multiprocessing** - 基于进程的并行。
+
+[官方文档](https://docs.python.org/zh-cn/3.7/library/index.html)
+[参考一](https://blog.csdn.net/ruanxingzi123/article/details/82787852)
+[参考二](https://blog.csdn.net/qq_39407518/article/details/80065601)
+
+## python上的第三个任务-水文整编计算
+
+从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此]()），按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
