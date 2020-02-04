@@ -16,7 +16,7 @@
 
 ## vscode界面简介
 
-<img src="https://wx2.sinaimg.cn/mw1024/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg" referrerpolicy=”no-referrer”>
+<img src="https://wx2.sinaimg.cn/mw1024/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg" referrerpolicy="no-referrer">
 
 ## python上的第一个任务-获取当前时间
 
