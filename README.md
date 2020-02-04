@@ -8,13 +8,15 @@
 * Python现成的“轮子”很多，有很多成熟的工具让我们来使用，很多情况下都不需要写复杂的逻辑；
 * 要熟悉命令行的操作方式，在windows上就是cmd或powershell，在linux上就是shell，在线的各种python教程中都会有各种在命令行中输入命令的操作，大家一定要习惯。
 
-<!-- <img src="https://wxt.sinaimg.cn/thumb300/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg?tags=%5B%5D"> -->
-
 ## 环境配置
 
 接下来就是python及编辑器的安装，强烈推荐从anaconda下载python，里面内置了很多常用的工具包，使用的时候非常方便，[下载网址](https://www.anaconda.com/distribution/#download-section)。
 编辑器推荐使用vscode，跟我的环境一致，比较容易解决你们的问题，这里推荐2个教程介绍如何安装和配置环境：[教程一](https://zhuanlan.zhihu.com/p/31417084)、[教程二](https://www.cnblogs.com/schut/p/10346755.html)。
 安装好python和vscode之后，请按照[python入门一](https://www.w3school.com.cn/python/index.asp)、[python入门二](https://www.w3cschool.cn/python3/python3-tutorial.html)或[python入门三](https://www.runoob.com/python/python-tutorial.html)来学习python的基本语法。**三个入门教程不尽相同，建议都看一遍！！！** 另外就是如何使用vscode调试python，这里推荐一个[教程](https://zhuanlan.zhihu.com/p/41189402)，调试时的快捷键与Visual Studio相同，F5为调试、运行，F10为单步运行，F11为进入子函数内部。需要注意的是在python代码调试完毕没有bug后，建议直接使用`python ***.py`的命令运行，这样效率会明显高于调试状态。
+
+## vscode界面简介
+
+<img src="https://wx2.sinaimg.cn/mw1024/005YcoSuly1gbjwjnzj45j31hc0svq8g.jpg" referrerpolicy=”no-referrer”>
 
 ## python上的第一个任务-获取当前时间
 
