@@ -139,4 +139,4 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 
 ## python上的第三个任务-水文整编计算
 
-从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
+从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)）。按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
