@@ -117,7 +117,9 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 
 ***
 
-* **matplotlib** -- Matplotlib 是一个 Python 的 2D绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形。诸如：线图、散点图、等高线图、条形图、柱状图、3D 图形、甚至是图形动画等等。[matplotlib官方教程](https://www.matplotlib.org.cn/)、[matplotlib教程一](https://www.runoob.com/w3cnote/matplotlib-tutorial.html)、[matplotlib教程二](https://www.cnblogs.com/nxld/p/7435930.html)
+* **matplotlib** -- Matplotlib 是一个 Python 的 2D绘图库，它以各种硬拷贝格式和跨平台的交互式环境生成出版质量级别的图形。诸如：线图、散点图、等高线图、条形图、柱状图、3D 图形、甚至是图形动画等等。
+  
+  [matplotlib官方教程](https://www.matplotlib.org.cn/)、[matplotlib教程一](https://www.runoob.com/w3cnote/matplotlib-tutorial.html)、[matplotlib教程二](https://www.cnblogs.com/nxld/p/7435930.html)
 
 ***
 
