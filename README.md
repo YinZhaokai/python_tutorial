@@ -23,7 +23,7 @@
 
 ***要求大家能够获取系统时间，能够显示在控制台上并写在文件里。***
 
-python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法，[代码文件 task1.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task1.py)。
+python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法，[示例代码 task1.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task1.py)。
 <!-- 
 ```python
 #在此处引用“包”
@@ -78,7 +78,7 @@ def main():
 
 ***要求大家从[文件](https://github.com/YinZhaokai/python_tutorial/blob/master/task2_in.txt)中读取矩阵，并将其的转置矩阵显示在控制台上并写在文件里。***
 
-python中有关矩阵运算通常都调用numpy包来实现，这里借助这个任务来了解常用的与科研相关的python工具包。有了这些工具包我们就有了基于python进行数据计算与分析的有力工具，可以轻易利用复杂/高级的算法实现我们的目的，避免将大量时间花在如何用代码实现这些算法上。[代码文件 task2.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task2.py)。
+python中有关矩阵运算通常都调用numpy包来实现，这里借助这个任务来了解常用的与科研相关的python工具包。有了这些工具包我们就有了基于python进行数据计算与分析的有力工具，可以轻易利用复杂/高级的算法实现我们的目的，避免将大量时间花在如何用代码实现这些算法上。[示例代码 task2.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task2.py)。
 
 ***
 
@@ -146,7 +146,7 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 ***要求大家从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)）。按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。***
 
 这是本教程的最后一个任务，是将python应用在水文研究的一个实际场景中。这个任务综合考察了大家在基本数据处理、数据图形绘制和常见文件类型交互等多方面的能力。这里只能体现python及其工具包强大功能的一小部分，还有更大的空间等待大家去探索。
-[代码文件 task3.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task3.py)
+[示例代码 task3.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task3.py)
 
 ***
 
