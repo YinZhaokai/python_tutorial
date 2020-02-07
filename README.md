@@ -140,3 +140,11 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 ## python上的第三个任务-水文整编计算
 
 从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)）。按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
+
+[代码文件 task3.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task3.py)
+
+如果大家能（在网络的帮助下）**独立**完成上述三个任务，大家的Python就算入门了。最后强调几点：
+
+* 大家一定要养成有了问题就去**搜索引擎**搜索的习惯，而且不能只看中文内容，有的冷门问题可能只在英文论坛上才有讨论。
+* 想深入了解Python的同学可以去看我上面提到的各种包的官方文档，详细了解它们都有哪些功能，可以开阔思路，在写Python的时候能够想得起来调用。
+* 在平时要多学习与计算机有关的数学知识，比如数据结构、各种算法、相关术语等，对于大家的编程会非常有帮助。
