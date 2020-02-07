@@ -21,6 +21,8 @@
 
 ## python上的第一个任务-获取当前时间
 
+***要求大家能够获取系统时间，能够显示在控制台上并写在文件里。***
+
 python中获取系统当前时间的操作可以轻易搜索到，这里借助这个简单的任务来了解python代码的基本写法，[代码文件 task1.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task1.py)。
 <!-- 
 ```python
@@ -73,6 +75,8 @@ def main():
 ***
 
 ## python上的第二个任务-求矩阵转置
+
+***要求大家从[文件](https://github.com/YinZhaokai/python_tutorial/blob/master/task2_in.txt)中读取矩阵，并将其的转置矩阵显示在控制台上并写在文件里。***
 
 python中有关矩阵运算通常都调用numpy包来实现，这里借助这个任务来了解常用的与科研相关的python工具包。有了这些工具包我们就有了基于python进行数据计算与分析的有力工具，可以轻易利用复杂/高级的算法实现我们的目的，避免将大量时间花在如何用代码实现这些算法上。[代码文件 task2.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task2.py)。
 
@@ -139,12 +143,16 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 
 ## python上的第三个任务-水文整编计算
 
-从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)）。按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。
+***要求大家从excel文件中（提示：可以借助xlrd, xlwt包或pandas包）读取一段历史径流数据（[数据见此，点击右键“另存为”下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.docx)，如果前一个文件下载后打不开，请选择[备份下载](https://github.com/YinZhaokai/python_tutorial/blob/master/task3_in.txt)）。按照线性插值的方式，从1998-7-13 8:00到1998-9-11 8:00 每隔一个小时都插上值，并保存在excel文件中（包括时间列），并将插值后的径流数据进行z-score标准化，并分别绘制标准化前、后的洪水过程线图。***
 
+这是本教程的最后一个任务，是将python应用在水文研究的一个实际场景中。这个任务综合考察了大家在基本数据处理、数据图形绘制和常见文件类型交互等多方面的能力。这里只能体现python及其工具包强大功能的一小部分，还有更大的空间等待大家去探索。
 [代码文件 task3.py](https://github.com/YinZhaokai/python_tutorial/blob/master/task3.py)
+
+***
 
 如果大家能（在网络的帮助下）**独立**完成上述三个任务，大家的Python就算入门了。最后强调几点：
 
 * 大家一定要养成有了问题就去**搜索引擎**搜索的习惯，而且不能只看中文内容，有的冷门问题可能只在英文论坛上才有讨论。
+* 常见bug类型包括如下方面：语法错误、索引错误（引用了超出范围的索引）、数据类型对应不上、参数传递错误、对于传值/传引用理解错误、文本编码格式错误、由于python或工具包更新造成API变动引起的错误等
 * 想深入了解Python的同学可以去看我上面提到的各种包的官方文档，详细了解它们都有哪些功能，可以开阔思路，在写Python的时候能够想得起来调用。
 * 在平时要多学习与计算机有关的数学知识，比如数据结构、各种算法、相关术语等，对于大家的编程会非常有帮助。
