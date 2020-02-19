@@ -163,4 +163,6 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 
 背景资料：[名词介绍](https://www.jiqizhixin.com/articles/2017-11-04-3)，[神经网络矩阵运算](https://blog.csdn.net/u011240016/article/details/85121601)，[理解LSTM网络](https://www.yunaitong.cn/understanding-lstm-networks.html)
 
+有关在GPU上训练Tensorflow的安装流程见[官方教程](https://tensorflow.google.cn/install/gpu)，[tensorflow各个版本的CUDA以及Cudnn版本对应关系](https://blog.csdn.net/qq_27825451/article/details/89082978)，[教程一](https://blog.csdn.net/abbott_zb/article/details/103361220)，[教程二](https://www.jianshu.com/p/9f89633bad57)
+
 示范代码[在此](https://github.com/YinZhaokai/python_tutorial/blob/master/tf2_test.py)。与直播中的代码不完全相同，但注释更详细。
