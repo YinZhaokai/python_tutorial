@@ -158,3 +158,9 @@ python中有关矩阵运算通常都调用numpy包来实现，这里借助这个
 * 常见bug类型包括如下方面：语法错误、索引错误（引用了超出范围的索引）、数据类型对应不上、参数传递错误、对于传值/传引用理解错误、文本编码格式错误、由于python或工具包更新造成API变动引起的错误等
 * 想深入了解Python的同学可以去看我上面提到的各种包的官方文档，详细了解它们都有哪些功能，可以开阔思路，在写Python的时候能够想得起来调用。
 * 在平时要多学习与计算机有关的数学知识，比如数据结构、各种算法、相关术语等，对于大家的编程会非常有帮助。
+
+## TensorFlow相关
+
+背景资料：[名词介绍](https://www.jiqizhixin.com/articles/2017-11-04-3)，[神经网络矩阵运算](https://blog.csdn.net/u011240016/article/details/85121601)，[理解LSTM网络](https://www.yunaitong.cn/understanding-lstm-networks.html)
+
+示范代码[在此](https://github.com/YinZhaokai/python_tutorial/blob/master/tf2_test.py)。与直播中的代码不完全相同，但注释更详细。
